@@ -10,6 +10,7 @@ from pathvalidate import sanitize_filename
 os.makedirs("output", exist_ok=True)
 
 # Path to store the models locally in AuraFlow-v0.3/models
+os.makedirs("models", exist_ok=True)
 model_folder = "models"
 device = "cuda:1" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
