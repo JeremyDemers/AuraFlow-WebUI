@@ -1,0 +1,22 @@
+# misc
+.DS_Store
+models/*
+aura_flow_0.3.safetensors
+# JetBrains
+.idea/
+
+#VS Code
+!/.vscode/
+/.vscode/*
+!/.vscode/launch.json
+.history
+.ssh
+
+# Python
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+#model
+*.safetensors

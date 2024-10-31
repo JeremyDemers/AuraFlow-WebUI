@@ -1,0 +1,7 @@
+transformers==4.45.2
+accelerate==1.0.0
+protobuf==5.28.2
+sentencepiece==0.2.0
+gradio==4.44.1
+pathvalidate==3.2.1
+git+https://github.com/huggingface/diffusers.git
